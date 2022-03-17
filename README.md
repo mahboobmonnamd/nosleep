@@ -8,7 +8,7 @@ Mac no sleep commands
 pmset -g
 
 # To disable sleep
-sudo pmset -a sleep 0;
-
+sudo pmset -a sleep 1; sudo pmset -b disablesleep 0;
+  
 # To enable sleep
-sudo pmset -a sleep 1;
+sudo pmset -a sleep 0; sudo pmset -b disablesleep 1;
